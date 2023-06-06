@@ -19,5 +19,7 @@ body {
 .square{
     background-color: #1d1d1d;
     box-shadow: 0 0 2px #000;
-    height: ;
+    height: 16px;
+    width: 16px;
+
 }
