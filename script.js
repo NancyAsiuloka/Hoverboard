@@ -15,11 +15,17 @@ for(let i = 0; i < SQUARES; i++){
 
 
 function setColor(element){
-    console.log(element)
+    const color = getRandomColor();
+    element.style.background = color
+    element.style.boxShadow = ` 0 0 2px ${color}, 0 0 1px ${color}`;
 }
 
 function removeColor(element){
 
+}
+
+function getRandomColor(){
+    return colors[Math.floor(Math.random() * colors.length)];
 }
 
 
